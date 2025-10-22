@@ -11,7 +11,11 @@ This repository has a Jupyter notebook for creating each of the figures (1-8) in
 - Table from Pecaut and Mamajek (2013) of main sequence spectral types, colors, and magnitudes (MamajekTable.txt)
 - Observing log info for speckle observations (speckle_log_info.csv)
 
+## Data Access
+All images and contrast curves can be accessed through ExoFOP (https://exofop.ipac.caltech.edu/tess/). The Jupyter notebook CorGI_REx_I.ipynb expects this data to be in a certain format (not the native format as posted on ExoFOP). This data will be uploaded to Zenodo upon paper publishing.
+
 ## Requirements
+- python >=3.10
 - astropy >= 7
 - astroquery >=0.4
 - matplotlib >=3.10
