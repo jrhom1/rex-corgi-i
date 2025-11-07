@@ -1,0 +1,48 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: rex-corgi-i
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file. Please also cite Hom, J., Wolff,
+  S. G., Clark C. A. et al. (2025)
+type: software
+authors:
+  - given-names: Justin
+    family-names: Hom
+    email: jrhom@arizona.edu
+    affiliation: University of Arizona
+    orcid: 'https://orcid.org/0000-0001-9994-2142'
+  - given-names: Catherine A.
+    family-names: Clark
+    affiliation: NASA Exoplanet Science Institute
+    orcid: 'https://orcid.org/0000-0002-9144-7726'
+  - given-names: Schuyler G.
+    family-names: Wolff
+    affiliation: University of Arizona
+    orcid: 'https://orcid.org/0000-0002-9977-8255'
+  - given-names: David
+    family-names: Ciardi
+    affiliation: NASA Exoplanet Science Institute
+    orcid: 'https://orcid.org/0000-0002-5741-3047'
+  - given-names: Steve B.
+    family-names: Howell
+    affiliation: NASA Ames Research Center
+    orcid: 'https://orcid.org/0000-0002-2532-2853'
+  - given-names: Sarah J.
+    family-names: Deveny
+    affiliation: NASA Ames Research Center
+    orcid: 'https://orcid.org/0009-0002-9833-0667'
+  - given-names: Alexandra Z.
+    family-names: Greenbaum
+    affiliation: IPAC
+    orcid: 'https://orcid.org/0000-0002-7162-8036'
+  - given-names: Eric
+    family-names: Mamajek
+    affiliation: NASA Jet Propulsion Laboratory
+    orcid: 'https://orcid.org/0000-0003-2008-1488'
+  - given-names: Dmitry
+    family-names: Savransky
+    affiliation: Cornell University
+    orcid: 'https://orcid.org/0000-0002-8711-7206'
