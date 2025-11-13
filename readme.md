@@ -12,7 +12,7 @@ This repository has a Jupyter notebook for creating each of the figures (1-8) in
 - Observing log info for speckle observations csv (speckle_log_info.csv). Necessary for creating Figure 4.
 
 ## Data Access
-All images and contrast curves can be accessed through ExoFOP (https://exofop.ipac.caltech.edu/tess/). The Jupyter notebook CorGI_REx_I.ipynb expects this data to be in a certain format (not the native format as posted on ExoFOP). This data will be uploaded to Zenodo upon paper publishing.
+All images and contrast curves can be accessed through ExoFOP (https://exofop.ipac.caltech.edu/tess/). The Jupyter notebook CorGI_REx_I.ipynb expects this data to be in a certain format (not the native format as posted on ExoFOP). This data and the v1.0.0 release of this repository are available here: https://doi.org/10.5281/zenodo.17548112
 
 ## Requirements
 - python >=3.10
@@ -30,9 +30,10 @@ Pecaut & Mamajek (2013); Intrinsic Colors, Temperatures, and Bolometric Correcti
 The construction of RefStar_S10_amendGrade.csv involved programmatic querying of Simbad (https://simbad.cds.unistra.fr/simbad/), VizieR catalogs (https://vizier.cds.unistra.fr/viz-bin/VizieR), and the Gaia Archive (https://gea.esac.esa.int/archive/)
 
 The specific catalogs queried were:
-Bourgés et al. (2014); The JMMC Stellar Diameters Catalog v2 (JSDC): A New Release Based on SearchCal Improvements, ASPC, 485, 223
-Duvert (2016); JMDC : JMMC Measured Stellar Diameters Catalogue, VizieR On-line Data Catalog: II/345
-Kervella et al. (2019); Stellar and substellar companions of nearby stars from Gaia DR2. Binarity from proper motion anomaly, A&A, 623, A72
-Kervella et al. (2022); Stellar and substellar companions from Gaia EDR3. Proper-motion anomaly and resolved common proper-motion pairs, A&A, 657, A7
+
+- Bourgés et al. (2014); The JMMC Stellar Diameters Catalog v2 (JSDC): A New Release Based on SearchCal Improvements, ASPC, 485, 223
+- Duvert (2016); JMDC : JMMC Measured Stellar Diameters Catalogue, VizieR On-line Data Catalog: II/345
+- Kervella et al. (2019); Stellar and substellar companions of nearby stars from Gaia DR2. Binarity from proper motion anomaly, A&A, 623, A72
+- Kervella et al. (2022); Stellar and substellar companions from Gaia EDR3. Proper-motion anomaly and resolved common proper-motion pairs, A&A, 657, A7
 
 References (in the form of ADS bibcodes) for other properties in RefStar_S10_amendGrade.csv are included within the csv file as column entries.
